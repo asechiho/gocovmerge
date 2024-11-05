@@ -1,7 +1,7 @@
 package main
 
-import "github.com/asechiho/gocovmerge/cmd/gocovmerge"
+import "github.com/asechiho/gocovmerge/cmd"
 
 func main() {
-	gocovmerge.Main()
+	cmd.Main()
 }
