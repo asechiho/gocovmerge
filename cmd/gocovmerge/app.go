@@ -51,7 +51,7 @@ func NewMergeCommand() *cobra.Command {
 
 func Main() {
 	var cmd = &cobra.Command{
-		Use: "gocoverage",
+		Use: "gocovmerge",
 	}
 
 	cmd.AddCommand(NewMergeCommand())
