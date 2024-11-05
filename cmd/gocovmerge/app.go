@@ -1,4 +1,4 @@
-package gocoverage
+package gocovmerge
 
 import (
 	"context"
