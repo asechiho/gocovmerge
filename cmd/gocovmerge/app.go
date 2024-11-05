@@ -8,7 +8,7 @@ import (
 	"os"
 )
 
-func NewMergeCommand() *cobra.Command {
+func Main() {
 	var (
 		files []string
 		out   string
@@ -46,15 +46,6 @@ func NewMergeCommand() *cobra.Command {
 
 	cmd.Flags().StringArrayVarP(&files, "file", "f", []string{}, "")
 	cmd.Flags().StringVarP(&out, "out", "o", "", "")
-	return cmd
-}
-
-func Main() {
-	var cmd = &cobra.Command{
-		Use: "gocovmerge",
-	}
-
-	cmd.AddCommand(NewMergeCommand())
 
 	var ctx = context.Background()
 	if err := cmd.ExecuteContext(ctx); err != nil {
