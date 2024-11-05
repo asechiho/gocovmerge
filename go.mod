@@ -1,4 +1,4 @@
-module github.com/asechiho/gocoverage
+module github.com/asechiho/gocovmerge
 
 go 1.23.1
 

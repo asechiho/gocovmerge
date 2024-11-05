@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/asechiho/gocoverage/cmd/gocoverage"
+	"github.com/asechiho/gocovmerge/cmd/gocoverage"
 )
 
 func main() {
