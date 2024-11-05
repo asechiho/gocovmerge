@@ -1,4 +1,4 @@
-package gocovmerge
+package cmd
 
 import (
 	"fmt"
